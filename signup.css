@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /*border:1px solid red;*/
+    font-family: sans-serif;
+
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .one {
+    width:1700px;
+    height: 739px;
+    background: linear-gradient(to right,hsl(350, 100%, 88%),white,#d1a9f7,#ffc0cb);
+  }
+  .two{
+   width: 800px;
+  }
+  .two form{
+    display: flex;
+    flex-direction: column;
+    margin: 15%;
+  }
+  .two label{
+    margin: 1%;
+  }
+  .two input{
+    margin: 1%;
+    padding: 2.5%;
+   width:90%;
+   border-radius: 10px;
+  }
+  .two img{
+    width:20%;
+    margin: 5%;
+  }
+  .two button{
+    width:90%;
+   margin:1%;
+    padding: 2.5%;
+    margin-top: 5%;
+    background-color: hsl(271, 85%, 59%);
+    color: aliceblue;
+    border-radius: 10px;
+  }
